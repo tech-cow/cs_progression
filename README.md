@@ -16,7 +16,7 @@
 
 | Focus Area           |   Course Source Code |  Platform | Progress|
 | ------------- | ------------- | ------------- |:-------------:|
-| `css`     |  [Advanced CSS and Sass](./advanced_css)  | Udemy | 10% |
+| `css`     |  [Advanced CSS and Sass](./advanced_css)  | Udemy | 11% |
 
 
 ## Dev Goals
