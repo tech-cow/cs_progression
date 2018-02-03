@@ -10,7 +10,6 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    /* 1.7 Times Bigger */
     line-height: : 1.7;
     color: #777;
     /* 这个padding让四周有30px!!!! */
@@ -30,11 +29,9 @@ body {
     background-size: cover;
     background-position: top;
     position: relative;
-
     /* 让页面切掉右下角， polygon定义四周的点 Clockwise */
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%)
 }
-
 
 .logo-box {
     /* Using Absolute Positioning */
@@ -94,7 +91,6 @@ body {
 @keyframes moveInLeft {
     0% {
         opacity: 0;
-        /* 这里的-100也是relative to这个box之前的位置 */
         transform: translateX(-100px);
     }
 
@@ -147,5 +143,4 @@ body {
 .btn-white {
     background-color: #fff;
     color: #777;
-
 }
