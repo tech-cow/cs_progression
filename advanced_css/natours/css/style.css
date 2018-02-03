@@ -59,7 +59,8 @@ body {
 
 .text-box {
     position: absolute;
-    top: 50%;
+    /* relative to the parent position */
+    top: 40%;
     left: 50%;
     /* 这里translate会把整体往parent的50%起始点，往左边移动50%自身box的长度
     已达到到达中间的位置 */
@@ -78,6 +79,14 @@ body {
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 35px;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+
+    /*
+    animation-iteration-count: 3;
+    animation-delay: 1s;
+    */
 }
 
 .heading-primary-sub {
@@ -85,4 +94,23 @@ body {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 17.4px;
+}
+
+@keyframes moveInLeft {
+    /* start of animation */
+    0% {
+        opacity: 0;
+        /* 这里的-100也是relative to这个box之前的位置 */
+        transform: translateX(-100px);
+    }
+
+    80%{
+      transform: translateX(10px);
+    }
+
+    /* end of animation */
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
 }
