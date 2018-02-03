@@ -6,3 +6,40 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    /* border-box可以无视boxmodel里面的Padding长度，当设置宽度为900px，得到的也是900px，Padding不会介入 */
+    box-sizing: border-box;
+  }
+
+body {
+  /* Font的顺序是，从第一个开始，没有就下一个 */
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    /* 1.7 Times Bigger */
+    line-height: : 1.7;
+    color: #777;
+    /* 这个padding让四周有30px!!!! */
+    padding: 30px;
+}
+
+.header {
+    /* 95% of the viewport height 也就是页面高度的95% */
+    height: 95vh;
+    /* 颜色转变gradient, 0.8是Transparency */
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(126, 213, 111 ,0.8),
+        rgba(40, 180, 131 ,0.8)),
+        url(../img/hero.jpg);
+    /* Fit element in the box */
+    background-size: cover;
+    background-position: top;
+
+    /* 让页面切掉右下角， polygon定义四周的点 Clockwise */
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%)
+}
