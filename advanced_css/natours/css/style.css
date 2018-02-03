@@ -100,7 +100,6 @@ body {
 }
 
 @keyframes moveInLeft {
-    /* start of animation */
     0% {
         opacity: 0;
         /* 这里的-100也是relative to这个box之前的位置 */
@@ -111,7 +110,6 @@ body {
       transform: translateX(10px);
     }
 
-    /* end of animation */
     100%{
         opacity: 1;
         transform: translate(0);
@@ -120,10 +118,8 @@ body {
 
 
 @keyframes moveInRight {
-    /* start of animation */
     0% {
         opacity: 0;
-        /* 这里的-100也是relative to这个box之前的位置 */
         transform: translateX(100px);
     }
 
@@ -131,7 +127,6 @@ body {
       transform: translateX(-10px);
     }
 
-    /* end of animation */
     100%{
         opacity: 1;
         transform: translate(0);
