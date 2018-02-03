@@ -61,6 +61,8 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
+    /* 这里translate会把整体往parent的50%起始点，往左边移动50%自身box的长度
+    已达到到达中间的位置 */
     transform: translate(-50%, -50%);
 
 }
