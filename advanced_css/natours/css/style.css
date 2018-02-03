@@ -65,7 +65,7 @@ body {
     /* 这里translate会把整体往parent的50%起始点，往左边移动50%自身box的长度
     已达到到达中间的位置 */
     transform: translate(-50%, -50%);
-
+    text-align: center;
 }
 
 .heading-primary {
@@ -73,11 +73,13 @@ body {
     text-transform: uppercase;
     /* transform有时候会把背面转出来，这个可以用来隐藏它 */
     backface-visibility: hidden;
+    margin-bottom: 60px;
 }
 
 .heading-primary-main {
     /* 因为span element本身定义的是inline，这里我们需要字体为上下，所以要用block */
     display: block;
+    margin-bottom: 10px;
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 35px;
@@ -131,4 +133,23 @@ body {
         opacity: 1;
         transform: translate(0);
     }
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    transition: all .2s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+
 }
