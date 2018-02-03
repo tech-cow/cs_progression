@@ -1,5 +1,5 @@
 <h3 style="text-align:center;font-weight: 300;" align="center">
-  <img src="http://yuzhoujr.com/logo/csprogression.png" width="300px">
+  <img src="http://yuzhoujr.com/logo/csprogression.png" width="400px">
 </h3>
 
 <p align="center">
@@ -11,13 +11,15 @@
 
 > resumes and algorithm interviews are heavily overrated, but codes never lie.
 
-### Ongoing
+## Ongoing
 
 
 | Focus Area           |   Course Title |  Source | Progress|
 | ------------- | ------------- | ------------- |:-------------:|
 | `css`     |  Advanced CSS and Sass  | Udemy | 10% |
 
+
+## Dev Goals
 
 🔥 Improving CSS by finishing [Udemy](https://www.udemy.com/advanced-css-and-sass/) Course
 
