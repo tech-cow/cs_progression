@@ -48,7 +48,8 @@ Ideally, When hovering around this button, background-color should turn into yel
 
 ##### Value Processing
 
-![overview]("https://cdn.pbrd.co/images/H626oi5.png")
+🍇 Overview slide
+![Overview](image/day2_value.png)
 
 
 ## Daily End Product:
