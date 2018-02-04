@@ -49,7 +49,7 @@ Ideally, When hovering around this button, background-color should turn into yel
 ##### Value Processing
 
 🍇 Overview slide
-![Overview](image/day2_value.png)
+![Overview](img/day2_value.png)
 
 
 ## Daily End Product:
