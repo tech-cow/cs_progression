@@ -17,7 +17,7 @@
 | Day           |   Topic | Link |
 | ------------- |------------- |:-------------:|
 | `Day 1`     |  Positioning, Animation & Image Clipping  | [🍉](./docs/day1.md) |
-
+| `Day 2`     |  Specificity, Value Processing & Inheritance  | [🍑](./docs/day2.md) |
 
 ## License
 
