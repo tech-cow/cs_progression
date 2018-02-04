@@ -16,7 +16,8 @@
 
 #### Day 2
 
-🍇 🍈 🍉 🍊 🍋 🍌 🍍 🍎 🍏 🍐 🍑 🍒 🍓 🥝 🍅
+🍇 🍊 🍋 🍌 🍍 🍎 🍏 🍐 🍑 🍒 🍓 🥝 🍅
+##### Specificity
 
 🍉 `specificity` in action:
 
@@ -41,45 +42,13 @@ Ideally, When hovering around this button, background-color should turn into yel
     background-color: yellow;
 }
 ```
----
-
 🍈 `background-color: purple !important;` : !important property gives priority to cascade specificity. Use carefully due to its conflicting nature against scalability.
 
+---
 
-```html
-  <nav id="nav">
-      <div class="pull-right">
-          <a class="button button-danger" href="link.html"> Don't click me! </a>
-      </div>
-  </nav>
-```
+##### Value Processing
 
-```css
-body {
-    padding: 50px;
-}
-
-.button {
-    font-size: 20px;
-    color: white;
-    background-color: blue;
-}
-
-a {
-    background-color: purple;
-}
-
-/* Highest specificity */
-#nav div.pull-right a.button{
-    background-color: orangered;
-}
-
-/* When hover, should turn the screen yellow */
-#nav a.button:hover {
-    background-color: yellow;
-}
-
-```
+![overview]("https://cdn.pbrd.co/images/H626oi5.png")
 
 
 ## Daily End Product:
