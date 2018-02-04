@@ -1,5 +1,5 @@
 <h3 style="text-align:center;font-weight: 300;" align="center">
-  <img src="img/logo-green-2x.png" width="150px">
+  <img src="./img/logo-green-2x.png" width="150px">
 </h3>
 
 <p align="center">
@@ -91,7 +91,7 @@
 ```
 
 Daily End Product:
-![Day1](progress/day1.png)
+![Day1](./progress/day1.png)
 
 
 ## License
