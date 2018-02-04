@@ -23,19 +23,25 @@
 🍉 Specificity Example:
 
 ```css
-/* Highest specificity */
-#nav div.pull-right a.button{
+#nav div.pull-right a.button {
     background-color: orangered;
 }
 
-/* When hover, should turn the screen yellow */
 #nav a.button:hover {
     background-color: yellow;
 }
 ```
 
+Ideally, When hover around this button, background-color should turn into yellow. However since its specificity is lower than before, the color won't change, to fix, we will need a selector with even higher specificity:
 
+```css
+#nav div.pull-right a.button {
+    background-color: orangered;
+}
 
+#nav div.pull-right a.button:hover {
+    background-color: yellow;
+}
 
 ```html
   <nav id="nav">
