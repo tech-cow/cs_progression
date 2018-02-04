@@ -90,7 +90,7 @@
 }
 ```
 
-Daily End Product:
+## Daily End Product:
 ![Day1](../progress/day1.png)
 
 
