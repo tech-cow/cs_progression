@@ -16,7 +16,7 @@
 
 | Day           |   Topic | Link |
 | ------------- |------------- |:-------------:|
-| `Day 1`     |  Positioning, Animation & Image Clipping  | [🍉](./daily-documents/day1.md) |
+| `Day 1`     |  Positioning, Animation & Image Clipping  | [🍉](./docs/day1.md) |
 
 
 ## License
