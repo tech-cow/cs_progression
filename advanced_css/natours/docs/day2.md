@@ -16,25 +16,60 @@
 
 #### Day 2
 
-🍈 `clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%)`: clips away corner by input exact coordinate of x and y planet.
+🍇 🍈 🍉 🍊 🍋 🍌 🍍 🍎 🍏 🍐 🍑 🍒 🍓 🥝 🍅
+
+🍈 `background-color: purple !important;` : !important property gives priority to cascade specificity. Use carefully due to its conflicting nature against scalability.
+
+🍉 Specificity Example:
 
 ```css
-.header {
-    /* 95% of the viewport height 也就是页面高度的95% */
-    height: 95vh;
-    /* 颜色转变gradient, 0.8是Transparency */
-    background-image: linear-gradient(
-        to right bottom,
-        rgba(126, 213, 111 ,0.8),
-        rgba(40, 180, 131 ,0.8)),
-        url(../img/hero.jpg);
-    /* Fit element in the box */
-    background-size: cover;
-    background-position: top;
-    position: relative;
-    /* 让页面切掉右下角， polygon定义四周的点 Clockwise */
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%)
+/* Highest specificity */
+#nav div.pull-right a.button{
+    background-color: orangered;
 }
+
+/* When hover, should turn the screen yellow */
+#nav a.button:hover {
+    background-color: yellow;
+}
+```
+
+
+
+
+```html
+  <nav id="nav">
+      <div class="pull-right">
+          <a class="button button-danger" href="link.html"> Don't click me! </a>
+      </div>
+  </nav>
+```
+
+```css
+body {
+    padding: 50px;
+}
+
+.button {
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+}
+
+a {
+    background-color: purple;
+}
+
+/* Highest specificity */
+#nav div.pull-right a.button{
+    background-color: orangered;
+}
+
+/* When hover, should turn the screen yellow */
+#nav a.button:hover {
+    background-color: yellow;
+}
+
 ```
 
 
