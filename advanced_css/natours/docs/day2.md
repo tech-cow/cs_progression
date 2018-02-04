@@ -16,7 +16,6 @@
 
 #### Day 2
 
-🍇 🍊 🍋 🍌 🍍 🍎 🍏 🍐 🍑 🍒 🍓 🥝 🍅
 ##### Specificity
 
 🍉 `specificity` in action:
@@ -49,11 +48,30 @@ Ideally, When hovering around this button, background-color should turn into yel
 ##### Value Processing
 
 🍇 Overview slide
+
 ![Overview](img/day2_value.png)
 
+🍊 Each property has an initial value, used if nothing is declared
 
-## Daily End Product:
-![Day1](../progress/day1.png)
+🍋 Browsers specify a `root font-size` for each page (usually 16px)
+
+🍌 Percentages are measured relative to their **parent’s** `font-size`
+
+🍍 `em` are measured relative to their **parent** `font-size`, if used to specify font-size;
+
+🍍 `em` are measured relative to the **current** `font-size`, if used to specify lengths;
+
+🍎 `rem` are always measured relative to the document’s **root** `font-size`;
+
+🍏 `vh` and `vw` are simply percentage measurements of the viewport’s height and width.
+
+
+
+
+🍐 🍑 🍒 🍓 🥝 🍅
+
+
+
 
 
 ## License
