@@ -18,9 +18,7 @@
 
 🍇 🍈 🍉 🍊 🍋 🍌 🍍 🍎 🍏 🍐 🍑 🍒 🍓 🥝 🍅
 
-🍈 `background-color: purple !important;` : !important property gives priority to cascade specificity. Use carefully due to its conflicting nature against scalability.
-
-🍉 Specificity Example:
+🍉 `specificity` in action:
 
 ```css
 #nav div.pull-right a.button {
@@ -32,7 +30,7 @@
 }
 ```
 
-Ideally, When hover around this button, background-color should turn into yellow. However since its specificity is lower than before, the color won't change, to fix, we will need a selector with even higher specificity:
+Ideally, When hovering around this button, background-color should turn into yellow. However since its specificity is lower than before, the color won't change, to fix, we will need a selector with even higher specificity:
 
 ```css
 #nav div.pull-right a.button {
@@ -42,6 +40,11 @@ Ideally, When hover around this button, background-color should turn into yellow
 #nav div.pull-right a.button:hover {
     background-color: yellow;
 }
+```
+---
+
+🍈 `background-color: purple !important;` : !important property gives priority to cascade specificity. Use carefully due to its conflicting nature against scalability.
+
 
 ```html
   <nav id="nav">
