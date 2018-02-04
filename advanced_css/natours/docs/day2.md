@@ -66,13 +66,11 @@ Ideally, When hovering around this button, background-color should turn into yel
 🍏 `vh` and `vw` are simply percentage measurements of the viewport’s height and width.
 
 
+##### Inheritance
 
+🍉 `inherit` keyword forces inheritance on a certain property;
 
-🍐 🍑 🍒 🍓 🥝 🍅
-
-
-
-
+🍉  `initial` keyword resets a property to its initial value.
 
 ## License
 
