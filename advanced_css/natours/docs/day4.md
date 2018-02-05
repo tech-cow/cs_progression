@@ -8,9 +8,7 @@
   <img src="https://img.shields.io/badge/build-passing-yellow.svg?style=flat-square">
 </p>
 
-
 > Natours: Let's make some CSS, I mean... Legit looking CSS 🔥
-
 
 ## Progress
 #### Day 4 | Sass Crash Course
@@ -24,7 +22,6 @@
 ##### Variables
 
 🍇 Variables can store colors, font stacks, or any CSS value. Sass uses the `$` symbol to declare a variable. Here's an example:
-
 
 ```scss
 $font-stack: Helvetica, sans-serif;
@@ -44,12 +41,10 @@ body {
   color: #333;
 }
 ```
-
 ---
 ##### Nesting
 
 🍊 Sass allows nesting feature that is similar to the visual hierarchy of HTML. Be aware that overly nested rules result in over-qualified CSS and is considered a bad practice.
-
 
 ```scss
 nav {
@@ -89,18 +84,13 @@ nav a {
 }
 ```
 ---
-
  <!-- 🍌 🍍 🍎 🍏 🍐 🍑 🍒 🍓 🥝 🍅 🥥 -->
-
-
 
 ## License
 
 🌱 MIT 🌱
 
 ---
-
-
 > ![home](http://yuzhoujr.com/emoji/home.svg) [yuzhoujr.com](http://www.yuzhoujr.com) &nbsp;&middot;&nbsp;
 > ![github](http://yuzhoujr.com/emoji/github.svg)  [@yuzhoujr](https://github.com/yuzhoujr) &nbsp;&middot;&nbsp;
 > ![linkedin](http://yuzhoujr.com/emoji/linkedin.svg)  [@yuzhoujr](https://linkedin.com/in/yuzhoujr)
