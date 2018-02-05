@@ -36,18 +36,18 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%)
 }
 
-.logo-box {
+.header__logo-box {
   /* Using Absolute Positioning */
   position: absolute;
   top: 4rem;
   left: 4rem;
 }
 
-.logo {
+.header__logo {
   height: 3.5rem;
 }
 
-.text-box {
+.header__text-box {
   position: absolute;
   /* relative to the parent position */
   top: 40%;
@@ -66,7 +66,7 @@ body {
   margin-bottom: 6rem;
 }
 
-.heading-primary-main {
+.heading-primary--main {
   /* 因为span element本身定义的是inline，这里我们需要字体为上下，所以要用block */
   display: block;
   margin-bottom: 1rem;
@@ -79,7 +79,7 @@ body {
   animation-timing-function: ease-out;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
   display: block;
   font-size: 2rem;
   font-weight: 700;
@@ -152,7 +152,7 @@ body {
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
 }
 
-.btn-white {
+.btn--white {
   background-color: #fff;
   color: #777;
 }
@@ -170,7 +170,7 @@ body {
     transition: all .4s;
 }
 
-.btn-white::after {
+.btn--white::after {
     background-color: #fff;
 }
 
@@ -180,7 +180,7 @@ body {
     opacity: 0;
 }
 
-.btn-animated {
+.btn--animated {
   /* Animation */
   animation-name: moveInBottom;
   animation-duration: 0.5s;

@@ -17,7 +17,7 @@
 #### Day 3
 
 
-##### Code Refactoring: rem
+##### Relative Sizing w/ rem
 🍈 `px` needs to be changed constantly for its fixed size properties, this can be tedious later to change for multiplatform displays. So we can use the properties of `rem` to make our life easier.
 
 🍉 recap: `rem` are always measured relative to the document’s **root** `font-size`;
@@ -68,11 +68,25 @@ html {
 
 🍋 Designers and developers can consistently name components for easier communication between team members. In other words, BEM gives everyone on a project a declarative syntax that they can share so that they're on the same page.
 
+---
+##### BEM Implementation
+
+
+
+
+
+
+
+
 ## License
 
 🌱 MIT 🌱
 
 ---
+
+
+
+
 
 > ![home](http://yuzhoujr.com/emoji/home.svg) [yuzhoujr.com](http://www.yuzhoujr.com) &nbsp;&middot;&nbsp;
 > ![github](http://yuzhoujr.com/emoji/github.svg)  [@yuzhoujr](https://github.com/yuzhoujr) &nbsp;&middot;&nbsp;
