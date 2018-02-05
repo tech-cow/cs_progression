@@ -73,7 +73,7 @@ nav {
 }
 ```
 
-🍋 `ul`, `li`, and a selectors are nested inside the `nav` selector. This is a great way to organize your CSS and make it more readable. CSS output:
+🍋 `ul`, `li`, and `a` selectors are nested inside the `nav` selector. This is a great way to organize CSS and make it more readable. CSS output:
 
 ```css
 nav ul {
