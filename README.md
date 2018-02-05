@@ -16,12 +16,12 @@
 
 | Focus Area           |   Course Source Code |  Platform | Progress|
 | ------------- | ------------- | ------------- |:-------------:|
-| `css`     |  [Advanced CSS and Sass](./advanced_css)  | Udemy | 11% |
+| `css`     |  [Advanced CSS and Sass](./advanced_css)  | Udemy | 17% |
 
 
 ## Dev Goals
 
-🔥 Improving CSS by finishing [Udemy](https://www.udemy.com/advanced-css-and-sass/) Course
+🔥 Improving CSS by finishing [Udemy](https://www.udemy.com/advanced-css-and-sass/) Course (17%)
 
 ⚡ Update Personal Portfolio
 
