@@ -12,12 +12,8 @@
 > Natours: Let's make some CSS, I mean... Legit looking CSS 🔥
 
 
-
 ## Progress
-
 #### Day 4 | Sass Crash Course
-
-
 ##### What is Sass?
 🍈 `Sass` is a CSS preprocessor, an extension of CSS that adds power and elegance to the basic language.
 
@@ -98,16 +94,11 @@ nav a {
 
 
 
-
-
 ## License
 
 🌱 MIT 🌱
 
 ---
-
-
-
 
 
 > ![home](http://yuzhoujr.com/emoji/home.svg) [yuzhoujr.com](http://www.yuzhoujr.com) &nbsp;&middot;&nbsp;

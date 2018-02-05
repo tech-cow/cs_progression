@@ -11,7 +11,6 @@
 
 > Natours: Let's make some CSS, I mean... Legit looking CSS 🔥
 
-
 ## Documents
 
 | Day           |   Topic | Link |
