@@ -50,6 +50,54 @@ body {
 ```
 
 ---
+##### Nesting
+
+🍊 Sass allows nesting feature that is similar to the visual hierarchy of HTML. Be aware that overly nested rules result in over-qualified CSS and is considered a bad practice.
+
+
+```scss
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+```
+
+🍋 `ul`, `li`, and a selectors are nested inside the `nav` selector. This is a great way to organize your CSS and make it more readable. CSS output:
+
+```css
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+```
+---
+
+ 🍌 🍍 🍎 🍏 🍐 🍑 🍒 🍓 🥝 🍅 🥥
+
+
+
 
 
 ## License
