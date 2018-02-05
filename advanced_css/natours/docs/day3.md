@@ -69,9 +69,51 @@ html {
 🍋 Designers and developers can consistently name components for easier communication between team members. In other words, BEM gives everyone on a project a declarative syntax that they can share so that they're on the same page.
 
 ---
+
 ##### BEM Implementation
 
+🌱 `index.html` before `BEM`
+```html
+<body>
+  <header class="header">
+    <div class="logo-box">
+      <img src="img/logo-white.png" alt="Logo" class="logo">
+    </div>
 
+    <!-- before dinner, needs to do a commit, omg addicted -->
+    <div class="text-box">
+      <h1 class="heading-primary">
+          <span class="heading-primary-main">Outdoors</span>
+          <span class="heading-primary-sub">is where life happens</span>
+        </h1>
+
+      <a href="#" class="btn btn-white btn-animated">Discover our tours</a>
+    </div>
+  </header>
+</body>
+```
+
+
+🌴 `index.html` w/ `BEM`
+
+```html
+<body>
+  <header class="header">
+    <div class="header__logo-box">
+      <img src="img/logo-white.png" alt="Logo" class="header__logo">
+    </div>
+
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+          <span class="heading-primary--main">Outdoors</span>
+          <span class="heading-primary--sub">is where life happens</span>
+      </h1>
+
+      <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+    </div>
+  </header>
+</body>
+```
 
 
 
