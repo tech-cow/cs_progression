@@ -1,5 +1,5 @@
 <h3 style="text-align:center;font-weight: 300;" align="center">
-  <img src="img/logo-green-2x.png" width="150px">
+  <img src="../img/logo-green-2x.png" width="150px">
 </h3>
 
 <p align="center">
@@ -11,21 +11,31 @@
 
 > Natours: Let's make some CSS, I mean... Legit looking CSS 🔥
 
+🍇 🍈 🍉 🍊 🍋 🍌 🍍 🍎 🍏 🍐 🍑 🍒 🍓 🥝 🍅 🥥
 
-## Documents
 
-| Day           |   Topic | Link |
-| ------------- |------------- |:-------------:|
-| `Day 1`     |  Positioning, Animation & Image Clipping  | [🍉](./docs/day1.md) |
-| `Day 2`     |  Specificity, Value Processing & Inheritance  | [🍑](./docs/day2.md) |
-| `Day 3`     |  Relative Sizing, BEM & Code Refactoring  | [🍊](./docs/day3.md) |
-| `Day 4`     |  Sass | [🍍](./docs/day4.md) |
+## Progress
+
+#### Day 4 | Sass
+
+
+##### What is Sass?
+🍈 `Sass` is a CSS preprocessor, an extension of CSS that adds power and elegance to the basic language.
+
+`Sass Source Code` -> `Sass compiler` -> `Compiled CSS code`
+
+---
+
 
 ## License
 
 🌱 MIT 🌱
 
 ---
+
+
+
+
 
 > ![home](http://yuzhoujr.com/emoji/home.svg) [yuzhoujr.com](http://www.yuzhoujr.com) &nbsp;&middot;&nbsp;
 > ![github](http://yuzhoujr.com/emoji/github.svg)  [@yuzhoujr](https://github.com/yuzhoujr) &nbsp;&middot;&nbsp;
