@@ -1,0 +1,20 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yu Zhou",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
