@@ -91,7 +91,7 @@
 ```
 
 ## Daily End Product:
-![Day1](../progress/day1.png)
+![Day1](../docs/progress/day1.png)
 
 
 ## License
