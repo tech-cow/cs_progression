@@ -124,6 +124,24 @@ body {
   animation-delay: .75s;
   animation-fill-mode: backwards; }
 
+.row {
+  /***
+      ·margin·: centerlize block with 0 auto;
+      ·&:not(:last-child)·  : select everything except the last child so the last child
+      doesn't have a margin-bottom
+    ***/
+  max-width: 114em;
+  background-color: #eee;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 6rem) / 2);
+    background-color: orangered;
+    float: left; }
+    .row .col-1-of-2:not(:last-child) {
+      margin-right: 6rem; }
+
 .header {
   /***
     height: 95% of the viewport height 也就是页面高度的95%

@@ -1,9 +1,26 @@
 .row {
     /***
-      margin: centerlize block with 0 auto;
+      ·margin·: centerlize block with 0 auto;
+      ·&:not(:last-child)·  : select everything except the last child so the last child
+      doesn't have a margin-bottom
     ***/
 
-    max-width: 114rem;
+    max-width: $grid-width;
     background-color: #eee;
     margin: 0 auto;
+
+
+    &:not(:last-child) {
+      margin-bottom: $gutter-vertical;
+    }
+
+    .col-1-of-2 {
+      width: calc((100% - #{$gutter-horizontal}) / 2);
+      background-color: orangered;
+      float: left;
+
+      &:not(:last-child){
+          margin-right: $gutter-horizontal;
+      }
+    }
 }
