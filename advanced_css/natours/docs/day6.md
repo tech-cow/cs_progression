@@ -23,14 +23,8 @@
 
 Thus adding the following code to our `div` is necessary to prevent all of the grids floating left to the first line.
 
-```scss
-@mixin clearfix {
-    &::after{
-        content: "";
-        display: table;
-        clear: both
-    }
-}
+![clearfix](../docs/img/clearfixcode.png)
+
 
 ```
 
