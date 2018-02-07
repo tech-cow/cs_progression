@@ -1,0 +1,36 @@
+.header {
+/***
+    height: 95% of the viewport height 也就是页面高度的95%
+    background-image: 颜色转变gradient, 0.8是Transparency
+    clip-path: 让页面切掉右下角， polygon定义四周的点 Clockwise
+***/
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,rgba($color-primary-light, .8),rgba($color-primary-dark, .8)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%)
+
+  &__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+  }
+
+  &__text-box {
+    /***
+        position:  relative to the parent position
+        transform: translate(): 会把整体往parent的50%起始点，往左边移动50%自身box的长度
+        已达到到达中间的位置
+    ***/
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
