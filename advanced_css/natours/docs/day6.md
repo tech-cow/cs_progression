@@ -24,7 +24,8 @@
 Thus adding the following code to our `div` is necessary to prevent all of the grids floating left to the first line.
 
 `@mixin clearfix`
-<img src="../docs/img/clearfixcode.png" width="300px">
+
+<img src="../docs/img/clearfixcode.png" width="350px">
 
 
 ---

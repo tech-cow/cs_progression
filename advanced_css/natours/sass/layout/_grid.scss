@@ -17,6 +17,16 @@
     @include clearfix;
 
     .col-1-of-2 {
+      width: calc((100% -2 * #{$gutter-horizontal}) / 3);
+      background-color: orangered;
+      float: left;
+
+      &:not(:last-child){
+          margin-right: $gutter-horizontal;
+      }
+    }
+
+    .col-1-of-2 {
       width: calc((100% - #{$gutter-horizontal}) / 2);
       background-color: orangered;
       float: left;
@@ -25,4 +35,7 @@
           margin-right: $gutter-horizontal;
       }
     }
+
+
+
 }
