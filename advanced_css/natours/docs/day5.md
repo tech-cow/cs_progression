@@ -13,7 +13,7 @@
 ## Progress
 #### Day X | Sass Refactoring
 
-<!-- 🍌 🍍 🍎 🍏 🍐 🍑 🍒 🍓 🥝 🍅 🥥 -->
+<!-- 🍍 🍎 🍏 🍐 🍑 🍒 🍓 🥝 🍅 🥥 -->
 
 ##### Sass Refactoring
 
@@ -30,14 +30,31 @@ Example:
 ![sass-after](../docs/img/sass-after.png)
 
 ---
-##### Title 2
+##### Sass 7-1 Pattern
 
+🍌 `7-1 Refactoring` : To make a front-end project easier to scale, having a structured design is important. This project follows the Sass 7-1 pattern as listed below:
 
-🍊 Text
+![sass-rules](../docs/img/sassrules.png)
 
-```code
+Our main.scss now have a brand-new look:
+```scss
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+
+@import "layout/header";
+
+@import "pages/home";
 
 ```
+
 ---
 
 ## License
