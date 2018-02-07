@@ -13,7 +13,7 @@
 ## Progress
 #### Day 6 | Grid
 
-<!-- 🍌 🍍 🍎 🍏 🍐 🍑 🍒 🍓 🥝 🍅 🥥 -->
+<!--   🍎 🍏 🍐 🍑 🍒 🍓  🍅 🥥 -->
 
 ##### Grid
 
@@ -28,16 +28,14 @@ Thus adding the following code to our `div` is necessary to prevent all of the g
 <img src="../docs/img/clearfixcode.png" width="350px">
 
 
+🍌 `[class^="col-"]`: Select selector starts with `col-``
+
+🥝 `_grid.scss` final form
+![grid-sass](../docs/img/grid-sass.png)
+
+
 ---
-##### Title 2
 
-
-🍊 Text
-
-```code
-
-```
----
 
 ## License
 

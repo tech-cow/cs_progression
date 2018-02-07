@@ -129,6 +129,7 @@ body {
       ·margin·: centerlize block with 0 auto;
       ·&:not(:last-child)·  : select everything except the last child so the last child
       doesn't have a margin-bottom
+      [class^="col-"]: Select selector starts with col-
     ***/
   max-width: 114em;
   background-color: #eee;
@@ -148,6 +149,14 @@ body {
     width: calc((100% - 6rem) / 2); }
   .row .col-1-of-3 {
     width: calc((100% - 2 * 6rem) / 3); }
+  .row .col-2-of-3 {
+    width: calc(2 *((100% - 2 * 6rem) / 3) + 6rem); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 6rem) / 4); }
+  .row .col-2-of-4 {
+    width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem); }
+  .row .col-3-of-4 {
+    width: calc(3 * ((100% - 3 * 6rem) / 4) + (2 * 6rem)); }
 
 .header {
   /***
