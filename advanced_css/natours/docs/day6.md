@@ -17,9 +17,20 @@
 
 ##### Grid
 
-🍈 `__` : xxxx.
+🍈 `clearfix` : The `clearfix` class prevent from bugs related to floating elements. If there are elements with `float` property inside of a `container` (like `div`), the browser will have troubles to calculate the height of that container. This is so-called **zero-height container problem** and it's illustrated in this picture:.
 
-```code
+![clearfix](../docs/img/clearfix.jpg)
+
+Thus adding the following code to our `div` is necessary to prevent all of the grids floating left to the first line.
+
+```scss
+@mixin clearfix {
+    &::after{
+        content: "";
+        display: table;
+        clear: both
+    }
+}
 
 ```
 
