@@ -21,7 +21,7 @@
 
 ## Dev Goals
 
-🔥 Improving CSS by finishing [Udemy](https://www.udemy.com/advanced-css-and-sass/) Course (17%)
+🔥 Improving CSS by finishing [Udemy](https://www.udemy.com/advanced-css-and-sass/) Course (27%)
 
 ⚡ Update Personal Portfolio
 
