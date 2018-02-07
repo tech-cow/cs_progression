@@ -11,7 +11,7 @@
 > Natours: Let's make some CSS, I mean... Legit looking CSS 🔥
 
 ## Progress
-#### Day X | Sass Refactoring
+#### Day 5 | Sass Refactoring
 
 <!-- 🍍 🍎 🍏 🍐 🍑 🍒 🍓 🥝 🍅 🥥 -->
 
