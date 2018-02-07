@@ -1,18 +1,4 @@
 @charset "UTF-8";
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit; }
-
-html {
-  /* font-size: ·rem· 的基础值 */
-  font-size: 62.5%; }
-
-body {
-  box-sizing: border-box; }
-
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -40,6 +26,20 @@ body {
   100% {
     opacity: 1;
     transform: translate(0); } }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  /* font-size: ·rem· 的基础值 */
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
 
 body {
   /***
@@ -135,10 +135,11 @@ body {
   background-size: cover;
   background-position: top;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%) .header __logo-box;
-    clip-path-position: absolute;
-    clip-path-top: 4rem;
-    clip-path-left: 4rem; }
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+  .header__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem; }
   .header__logo {
     height: 3.5rem; }
   .header__text-box {
