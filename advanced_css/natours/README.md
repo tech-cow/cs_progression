@@ -13,12 +13,15 @@
 
 ## Documents
 
+<!-- 🍈 🍋 🍌 🍎 🍏 🍐 🍒 🍓 🥝 🍅 🥥 -->
+
 | Day           |   Topic | Link |
 | ------------- |------------- |:-------------:|
 | `Day 1`     |  Positioning, Animation & Image Clipping  | [🍉](./docs/day1.md) |
 | `Day 2`     |  Specificity, Value Processing & Inheritance  | [🍑](./docs/day2.md) |
-| `Day 3`     |  Relative Sizing, BEM & Code Refactoring  | [🍊](./docs/day3.md) |
+| `Day 3`     |  Relative Sizing, BEM & BEM Refactoring  | [🍊](./docs/day3.md) |
 | `Day 4`     |  Sass Crash Course | [🍍](./docs/day4.md) |
+| `Day 5`     |  Sass Refactoring | [🍇](./docs/day5.md) |
 
 ## License
 
