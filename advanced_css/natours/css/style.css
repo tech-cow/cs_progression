@@ -7,7 +7,7 @@
   box-sizing: inherit; }
 
 html {
-  /*font-size: ·rem· 的基础值*/
+  /* font-size: ·rem· 的基础值 */
   font-size: 62.5%; }
 
 body {
@@ -15,7 +15,7 @@ body {
     font-family: 顺序是，从第一个开始，没有就下一个
     padding: 让四周有30px
     box-sizing: border-box: 可以无视boxmodel里面的Padding长度，当设置宽度为900px，得到的也是900px，Padding不会介入
-  ***/
+***/
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
@@ -28,34 +28,29 @@ body {
     height: 95% of the viewport height 也就是页面高度的95%
     background-image: 颜色转变gradient, 0.8是Transparency
     clip-path: 让页面切掉右下角， polygon定义四周的点 Clockwise
-  ***/
+***/
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
-
-.header__logo-box {
-  position: absolute;
-  top: 4rem;
-  left: 4rem; }
-
-.header__logo {
-  height: 3.5rem; }
-
-.header__text-box {
-  /***
-    Args:
-      position:  relative to the parent position
-      transform: translate(): 会把整体往parent的50%起始点，往左边移动50%自身box的长度
-      已达到到达中间的位置
-  ***/
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center; }
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%) .header __logo-box;
+    clip-path-position: absolute;
+    clip-path-top: 4rem;
+    clip-path-left: 4rem; }
+  .header__logo {
+    height: 3.5rem; }
+  .header__text-box {
+    /***
+        position:  relative to the parent position
+        transform: translate(): 会把整体往parent的50%起始点，往左边移动50%自身box的长度
+        已达到到达中间的位置
+    ***/
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
 
 .heading-primary {
   /* backface-visibility: transform有时候会把背面转出来，这个可以用来隐藏它 */
@@ -63,26 +58,24 @@ body {
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
-
-.heading-primary--main {
-  /* display:block: 因为span element本身定义的是inline，这里我们需要字体为上下，所以要用block */
-  display: block;
-  margin-bottom: 1rem;
-  font-size: 6rem;
-  font-weight: 400;
-  letter-spacing: 3.5rem;
-  animation-name: moveInLeft;
-  animation-duration: 1s;
-  animation-timing-function: ease-out; }
-
-.heading-primary--sub {
-  display: block;
-  font-size: 2rem;
-  font-weight: 700;
-  letter-spacing: 1.74rem;
-  animation-name: moveInRight;
-  animation-duration: 1s;
-  animation-timing-function: ease-out; }
+  .heading-primary--main {
+    /* display:block: 因为span element本身定义的是inline，这里我们需要字体为上下，所以要用block */
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out; }
+  .heading-primary--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.74rem;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out; }
 
 @keyframes moveInLeft {
   0% {
@@ -124,6 +117,10 @@ body {
 .btn:hover {
   transform: translateY(-0.3rem);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  .btn:hover::after {
+    /* opcaity:fadeout */
+    transform: scale(1.1) scaleY(1.4);
+    opacity: 0; }
 
 .btn:active {
   transform: translateY(-0.1rem);
@@ -132,6 +129,8 @@ body {
 .btn--white {
   background-color: #fff;
   color: #777; }
+  .btn--white::after {
+    background-color: #fff; }
 
 .btn::after {
   content: "";
@@ -144,18 +143,10 @@ body {
   z-index: -1;
   transition: all .4s; }
 
-.btn--white::after {
-  background-color: #fff; }
-
-.btn:hover::after {
-  transform: scale(1.1) scaleY(1.4);
-  /* fadeout */
-  opacity: 0; }
-
 .btn--animated {
+  /* animation-fill-mode: Auto Applied Opacity of 0 */
   animation-name: moveInBottom;
   animation-duration: 0.5s;
   animation-timing-function: ease-out;
   animation-delay: .75s;
-  /* Auto Applied Opacity of 0 */
   animation-fill-mode: backwards; }
