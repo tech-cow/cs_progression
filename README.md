@@ -12,7 +12,6 @@
 > resumes and algorithm interviews are heavily overrated, but codes never lie.
 
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fyuzhoujr%2Fcs_progression.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fyuzhoujr%2Fcs_progression?ref=badge_large)
 
 ## Ongoing
 
@@ -37,9 +36,12 @@
 
 🌱 MIT 🌱
 
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fyuzhoujr%2Fcs_progression.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fyuzhoujr%2Fcs_progression?ref=badge_large)
+
 ---
 
-> ![home](http://yuzhoujr.com/emoji/home.svg) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fyuzhoujr%2Fcs_progression.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fyuzhoujr%2Fcs_progression?ref=badge_shield)
+> ![home](http://yuzhoujr.com/emoji/home.svg) 
 [yuzhoujr.com](http://www.yuzhoujr.com) &nbsp;&middot;&nbsp;
 > ![github](http://yuzhoujr.com/emoji/github.svg)  [@yuzhoujr](https://github.com/yuzhoujr) &nbsp;&middot;&nbsp;
 > ![linkedin](http://yuzhoujr.com/emoji/linkedin.svg)  [@yuzhoujr](https://linkedin.com/in/yuzhoujr)
