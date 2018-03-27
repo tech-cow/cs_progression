@@ -28,7 +28,7 @@
 
 ## Dev Goals
 
-🔥 Improving CSS by finishing [Udemy](https://www.udemy.com/advanced-css-and-sass/) Course (27%)
+🔥 Boss says go learn MongoDB, yes boss
 
 ⚡ Update Personal Portfolio
 
