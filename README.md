@@ -18,8 +18,10 @@
 
 | Focus Area           |   Course Source Code |  Platform | Progress|
 | ------------- | ------------- | ------------- |:-------------:|
-| `css`     |  [Advanced CSS and Sass](./advanced_css)  | Udemy | 27% |
+| `mongoDB`     |  [MongoDB Mastercourse](https://github.com/yuzhoujr/mongo_bootcamp/tree/master/bootcamp)  | Udemy | 10% |
 
+## Postponed
+| `css`     |  [Advanced CSS and Sass](./advanced_css)  | Udemy | 27% |
 
 ## Dev Goals
 
