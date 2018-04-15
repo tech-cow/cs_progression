@@ -17,7 +17,7 @@
 
 | Name | Focus Area   |  Stack | Progress | Link |
 | -------------| ------------- | ------------- | ------------- |:-------------:|
-| `blog_scraper` | `Web Scraping` |  Python  | 100% | [github](https://github.com/yuzhoujr/blogscraper) |
+| `blog_scraper` | `Web Scraping` |  Python  | 100% | ⚡[github](https://github.com/yuzhoujr/blogscraper)⚡ |
 
 
 ## Ongoing
