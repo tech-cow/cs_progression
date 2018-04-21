@@ -1,5 +1,5 @@
 <h3 style="text-align:center;font-weight: 300;" align="center">
-  <img src="http://yuzhoujr.com/logo/2018.png" width="400px">
+  <img src="http://yuzhoujr.com/legacy/logo/2018.png" width="400px">
 </h3>
 
 <p align="center">
